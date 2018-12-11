@@ -1,8 +1,7 @@
 {
   "name": "matt-li",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "./",
+  "homepage": "https://shye0000.github.io/matt",
   "dependencies": {
     "antd": "^3.11.2",
     "react": "16.7.0-alpha.2",
