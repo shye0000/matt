@@ -1,28 +1,26 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
-}
+import Row from 'antd/lib/row';
+import Col from 'antd/lib/col';
+
+import Head from './components/head';
+import Left from './components/left';
+import Main from './components/main';
+
+import './App.scss';
+
+const App = () => (
+  <div className="App">
+    <Head />
+    <Row type="flex" align="top">
+      <Col xs={24} md={8}>
+        <Left />
+      </Col>
+      <Col xs={24} md={16}>
+        <Main />
+      </Col>
+    </Row>
+  </div>
+);
 
 export default App;

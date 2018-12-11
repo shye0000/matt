@@ -1,0 +1,11 @@
+@import '~antd/dist/antd.css';
+@import "./styles/colors";
+@import "./styles/vars";
+
+.App {
+  background: $blue-dark;
+  max-width: 1200px;
+  margin: auto;
+  color: white;
+  padding: $lg-padding;
+}

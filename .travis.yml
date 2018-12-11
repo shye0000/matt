@@ -1,0 +1,25 @@
+language: node_js
+node_js:
+    - '10.14.1'
+
+install:
+  - npm install
+
+#before_script:
+#  - npm run test
+
+script:
+  - npm run build
+
+branches:
+  only:
+    - master
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github-token: $GITHUB_TOKEN
+  local_dir: build
+  email: shye0000@gmail.com
+  on:
+    branch: master
