@@ -2,6 +2,7 @@
   "name": "matt-li",
   "version": "0.1.0",
   "private": true,
+  "homepage": "./",
   "dependencies": {
     "antd": "^3.11.2",
     "react": "16.7.0-alpha.2",
@@ -12,6 +13,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test:coverage": "npm test -- --coverage",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
