@@ -1,0 +1,16 @@
+@import "../../../styles/vars";
+
+.contacts {
+  font-size: 20px;
+  .content {
+    margin-top: $sm-padding;
+    margin-bottom: $sm-padding;
+    .content-icon {
+      border-radius: 50%;
+      border: 1px solid;
+      padding: 5px;
+      font-size: 23px;
+      margin-right: 10px;
+    }
+  }
+}

@@ -12,7 +12,7 @@ import './App.scss';
 const App = () => (
   <div className="App">
     <Head />
-    <Row type="flex" align="top">
+    <Row type="flex" align="top" gutter={20}>
       <Col xs={24} md={8}>
         <Left />
       </Col>
