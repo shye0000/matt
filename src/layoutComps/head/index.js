@@ -12,14 +12,14 @@ import './index.scss';
 const Head = () => (
   <div className="head">
     <Row gutter={20}>
-      <Col xs={24} md={8}>
+      <Col xs={24} md={6}>
         <ProfilePhoto />
         <Name />
       </Col>
-      <Col xs={24} md={8}>
+      <Col xs={24} md={9}>
         <Description />
       </Col>
-      <Col xs={24} md={8}>
+      <Col xs={24} md={9}>
         <Contacts />
       </Col>
     </Row>
