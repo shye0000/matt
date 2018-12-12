@@ -5,5 +5,8 @@
   .content {
     background: $blue-light;
     padding: $xsm-padding $sm-padding;
+    & > div {
+      margin-bottom: $xsm-padding;
+    }
   }
 }
