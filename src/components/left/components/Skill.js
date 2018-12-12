@@ -1,6 +1,6 @@
 import React from 'react';
-import propTypes from 'prop-types';
 import './Skill.scss';
+import skillPropTypes from './skillPropTypes';
 
 const Skill = ({ skill }) => (
   <div className="skill">
@@ -10,10 +10,7 @@ const Skill = ({ skill }) => (
 );
 
 Skill.propTypes = {
-  skill: propTypes.shape({
-    logo: propTypes.string.isRequired,
-    label: propTypes.string.isRequired,
-  }).isRequired,
+  skill: skillPropTypes.isRequired,
 };
 
 export default Skill;

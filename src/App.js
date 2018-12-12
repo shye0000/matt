@@ -2,7 +2,6 @@ import React from 'react';
 
 import Row from 'antd/lib/row';
 import Col from 'antd/lib/col';
-
 import Head from './components/head';
 import Left from './components/left';
 import Main from './components/main';
