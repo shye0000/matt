@@ -1,0 +1,25 @@
+@import "../../styles/vars";
+.experience {
+  margin-bottom: $lg-padding;
+  .experience-head {
+    .period {
+      margin-right: $xsm-padding;
+      .date {
+        text-transform: capitalize;
+      }
+      &:before {
+        content: '[ ';
+      }
+      &:after {
+        content: ' ]';
+      }
+    }
+    .title {
+      font-weight: bold;
+    }
+  }
+  .experience-body {
+    margin: $sm-padding 0 $sm-padding $xlg-padding;
+    white-space: pre-line;
+  }
+}

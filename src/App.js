@@ -2,9 +2,9 @@ import React from 'react';
 
 import Row from 'antd/lib/row';
 import Col from 'antd/lib/col';
-import Head from './components/head';
-import Left from './components/left';
-import Main from './components/main';
+import Head from './layoutComps/head';
+import Left from './layoutComps/left';
+import Main from './layoutComps/main';
 
 import './App.scss';
 

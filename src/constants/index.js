@@ -66,4 +66,43 @@ const HOBBIES = [
   'Cuisine',
 ];
 
-export { SKILLS, LANGUAGES, HOBBIES };
+const EXPERIENCES = [{
+  id: 'famoco',
+  startDate: '2018-10-01',
+  endDate: undefined,
+  title: 'Développeur front chez FAMOCO',
+  description: 'Le développement de nouvelles fonctionnalités et la maintenance',
+}, {
+  id: 'webcentric',
+  startDate: '2015-10-01',
+  endDate: '2018-09-01',
+  title: 'Développeur front chez WEBCENTRIC',
+  description:
+    'Conception et Création de diverse types de webapp selon besoins du client \n'
+    + 'RH, gestion de programmation, systèmes de control d\'accès de festival ...\n'
+    + 'Conception de l\'architecture du front\n'
+    + 'React, Redux, AngularJS, Jquery, nodejs, Webpack, Grunt, Symfony, antd',
+}, {
+  id: 'cnrs',
+  startDate: '2014-04-01',
+  endDate: '2015-09-01',
+  title: 'Ingénieur d’étude à l’Institut d’Astrophysique Spatiale (IAS), laboratoire spatial du CNRS',
+  description:
+    'Création des portails web pour la mise à disposition de données des projets spatiaux\n'
+    + 'Extjs, Jquery, python, CSS3, HTML, postgresSQL, Java\n',
+}, {
+  id: 'orange',
+  startDate: '2013-04-01',
+  endDate: '2013-08-01',
+  title: 'Stage de fin d’étude chez Orange Labs',
+  description:
+    'Mise en place d’un outil pour la description des réseaux de synchronisation\n'
+    + 'HTML, CSS3, Jquery, PHP, WAMP\n',
+}];
+
+export {
+  SKILLS,
+  LANGUAGES,
+  HOBBIES,
+  EXPERIENCES,
+};

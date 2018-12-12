@@ -1,0 +1,9 @@
+@import "../../styles/vars";
+@import "../../styles/colors";
+.experiences {
+  margin: $sm-padding 0;
+  .content {
+    background: $blue-light;
+    padding: $sm-padding;
+  }
+}

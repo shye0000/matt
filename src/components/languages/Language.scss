@@ -1,0 +1,10 @@
+@import "../../styles/vars";
+
+.language {
+  text-align: center;
+  padding: $lg-padding;
+  .language-name {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+}
