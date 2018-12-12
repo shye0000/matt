@@ -14,6 +14,9 @@ import logoEnzymeSvg from '../images/logos/logo-enzyme-airbnb.svg';
 import logoJestSvg from '../images/logos/logo-jest.svg';
 import logoEslintSvg from '../images/logos/logo-eslint.svg';
 
+import telecomBretagneBadge from '../images/schools/telecom-bretagne.png';
+import xiDianBadge from '../images/schools/xi-dian.jpg';
+
 const SKILLS = [
   { id: 'react', logo: logoReactSvg, label: 'React' },
   { id: 'redux', logo: logoReduxSvg, label: 'Redux' },
@@ -86,7 +89,7 @@ const EXPERIENCES = [{
   id: 'cnrs',
   startDate: '2014-04-01',
   endDate: '2015-09-01',
-  title: 'Ingénieur d’étude à l’Institut d’Astrophysique Spatiale (IAS), laboratoire spatial du CNRS',
+  title: 'Ingénieur d’étude à l’Institut d’Astrophysique Spatiale (IAS), laboratoire du CNRS',
   description:
     'Création des portails web pour la mise à disposition de données des projets spatiaux\n'
     + 'Extjs, Jquery, python, CSS3, HTML, postgresSQL, Java\n',
@@ -100,9 +103,26 @@ const EXPERIENCES = [{
     + 'HTML, CSS3, Jquery, PHP, WAMP\n',
 }];
 
+const EDUCATIONS = [{
+  id: 'TELECOM-BRETAGNE',
+  startDate: '2011-09-01',
+  endDate: '2013-09-01',
+  school: 'Télécom Bretagne, Brest (France)',
+  major: 'Master en technologies de l’information, spécialité Ingénierie des systèmes de télécommunications',
+  badge: telecomBretagneBadge,
+}, {
+  id: 'XI-DIAN',
+  startDate: '2007-09-01',
+  endDate: '2011-09-01',
+  school: 'Université de Xidian (partenaire de Télécom Bretagne), Xi’an (Chine)',
+  major: 'Bachelor ( Licence ) en technologies de l’information, spécialité Ingénierie électronique et de l\'information',
+  badge: xiDianBadge,
+}];
+
 export {
   SKILLS,
   LANGUAGES,
   HOBBIES,
   EXPERIENCES,
+  EDUCATIONS,
 };

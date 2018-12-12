@@ -1,9 +1,9 @@
 @import "../../styles/vars";
-.experience {
+.education {
   &:not(:last-child) {
     margin-bottom: $lg-padding;
   }
-  .experience-head {
+  .education-head {
     .period {
       margin-right: $xsm-padding;
       white-space: nowrap;
@@ -21,8 +21,18 @@
       font-weight: bold;
     }
   }
-  .experience-body {
-    margin: $sm-padding 0 $sm-padding $xlg-padding;
+  .education-body {
+    margin: $sm-padding 0;
     white-space: pre-line;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    .school-badge {
+      width: 50px;
+      height: auto;
+      margin-right: $sm-padding;
+    }
   }
 }
