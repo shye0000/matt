@@ -55,4 +55,15 @@ const LANGUAGES = [{
   msg: 'Bonjour le monde !',
 }];
 
-export { SKILLS, LANGUAGES };
+const HOBBIES = [
+  'Manger',
+  'Dormir',
+  'Parler',
+  'Réfléchir',
+  'Voyage',
+  'Sports',
+  'Karaoké',
+  'Cuisine',
+];
+
+export { SKILLS, LANGUAGES, HOBBIES };

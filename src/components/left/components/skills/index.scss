@@ -1,8 +1,8 @@
-@import "../../../styles/vars";
-@import "../../../styles/colors";
+@import "../../../../styles/vars";
+@import "../../../../styles/colors";
 
 .skills {
-  padding: $sm-padding 0;
+  margin: $sm-padding 0;
   .content {
     background: $blue-light;
     padding: $sm-padding $sm-padding 0 $sm-padding;

@@ -2,13 +2,13 @@ import React from 'react';
 import propTypes from 'prop-types';
 import Row from 'antd/lib/row';
 import Col from 'antd/lib/col';
-import BoxLabel from '../../BoxLabel';
+import BoxLabel from '../../../BoxLabel';
 import Skill from './Skill';
-import logoJsSvg from '../../../images/logos/logo-js.svg';
-import logoBabelSvg from '../../../images/logos/logo-babel.svg';
+import logoJsSvg from '../../../../images/logos/logo-js.svg';
+import logoBabelSvg from '../../../../images/logos/logo-babel.svg';
 import skillPropTypes from './skillPropTypes';
 
-import './Skills.scss';
+import './index.scss';
 
 const Skills = ({ skills }) => (
   <div className="skills">

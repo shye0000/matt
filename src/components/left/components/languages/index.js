@@ -1,9 +1,9 @@
 import React from 'react';
 import propTypes from 'prop-types';
-import BoxLabel from '../../BoxLabel';
+import BoxLabel from '../../../BoxLabel';
 import Language from './Language';
 import languagePropTypes from './languagePropTypes';
-import './Languages.scss';
+import './index.scss';
 
 const Languages = ({ languages }) => (
   <div className="languages">
