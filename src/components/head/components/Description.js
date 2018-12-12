@@ -1,6 +1,6 @@
 import React from 'react';
 
-import BoxLabel from './BoxLabel';
+import BoxLabel from '../../BoxLabel';
 
 import './Description.scss';
 

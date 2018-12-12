@@ -1,4 +1,3 @@
-@import '~antd/dist/antd.css';
 @import "./styles/colors";
 @import "./styles/vars";
 
@@ -8,4 +7,8 @@
   margin: auto;
   color: white;
   padding: $lg-padding;
+
+  strong {
+    font-weight: bold;
+  }
 }

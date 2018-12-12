@@ -1,8 +1,9 @@
 import React from 'react';
+import Skills from './components/Skills';
 
 const Left = () => (
   <div className="left">
-    left
+    <Skills />
   </div>
 );
 

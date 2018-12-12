@@ -1,6 +1,6 @@
 import React from 'react';
 import Icon from 'antd/lib/icon';
-import BoxLabel from './BoxLabel';
+import BoxLabel from '../../BoxLabel';
 
 import './Contacts.scss';
 
